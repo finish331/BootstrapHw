@@ -1,0 +1,260 @@
+html{
+    width: 1440px;
+    margin:auto;
+    height: auto;
+}
+
+.logo{
+    width:443px;
+    height:80px;
+    margin-left: 60px;
+    margin-top:35px;
+}
+.flex-header{
+    display: flex;
+    height: 130px;
+    width: 1440px;
+}
+.nav-bar{
+    margin-left: 555px;
+    margin-top:70px;
+}
+.nav-text{
+    text-decoration: none;
+    color:#6c6c6c;
+    font-size: 14px;
+    margin-right: 30px;
+}
+.nav-text:hover{
+    color:#d7ac41;
+    text-decoration: none;
+}
+.main-view{
+    background-image: url(../img/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width:1440px;
+    height:782px;
+    padding:335px 315px;
+    text-align: center;
+    font-family: '微軟正黑體';
+}
+.view-text1{
+    margin:0;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.view-text2{
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.about-us{
+    width: 1440px;
+    height:754px;
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: '微軟正黑體';
+}
+.about-icon{
+    margin:100px 660px 0px 660px;
+}
+.about-text1{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top:40px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.about-text1 b{
+    font-size: 24px;
+    font-weight: 600;
+}
+.about-text2{
+    font-size: 16px;
+    font-weight: 300;
+    line-height:1.62;
+    margin-top:40px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.about-us HR{
+    width:62px;
+    border:solid 1px;
+    color:#d7ac41;
+    margin-top:40px;
+}
+.about-text3{
+    font-size: 16px;
+    font-weight: 300;
+    line-height:1.62;
+    margin-top:40px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.about-text4{
+    font-size: 16px;
+    font-weight: 300;
+    line-height:1.62;
+    margin-top:40px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.service{
+    height:667px;
+    width: 1440px;
+    background-image: url(../img/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:100px;
+    font-family: '微軟正黑體';
+}
+.service HR{
+    width:62px;
+    border:solid 1px;
+    color:#d7ac41;
+    margin:0;
+    margin-left: 680px;
+}
+.service-title{
+    margin:25px 620px 40px 620px;
+    font-size: 50px;
+    font-weight: 600;
+    color:#4a494b;
+}
+.service-item{
+    padding-left:200px;
+    padding-right:100px;
+}
+.item{
+    margin: 15px;
+    width:250px;
+    height:50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top:15px;
+    color:#6c6c6c;
+    text-align: center;
+}
+.team{
+    font-family: '微軟正黑體';
+}
+.team HR{
+    width:62px;
+    border:solid 1px;
+    color:#d7ac41;
+    background-color: #d7ac41;
+    margin-top:100px;
+}
+.team-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color:#4a494b;
+}
+.all-member{
+    padding-left:135px;
+}
+.team-member{
+    display: flex;
+    background-color: #f6f7f8;
+    width: 570px;
+    margin:20px;
+    padding: 0;
+}
+.member-text{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.member-text .title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top:60px;
+}
+.member-text .text0{
+    font-size: 16px;
+    font-weight: 600;
+    margin:0;
+}
+.member-text .text1{
+    margin-top:18px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.member-text .text2{
+    font-size: 16px;
+}
+.member-text .text3{
+    font-size: 16px;
+    margin-top:20px;
+}
+.member-button{
+    width:270px;
+    height: 60px;
+    margin:60px 585px 100px 585px;
+    font-size: 16px;
+    border:solid 1px;
+    color:#d7ac41; 
+    background-color: white;
+}
+.footer{
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height:437px;
+    padding-top:100px;
+    padding-left: 135px;
+    font-family: '微軟正黑體';
+}
+.footer HR{
+    width:62px;
+    border:solid 1px;
+    color:#d7ac41;
+    background-color: #d7ac41;
+    margin:0;
+}
+.footer-flex{
+    display: flex;
+    font-size: 16px;
+}
+.footer-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:#4a494b;
+    margin-top:25px;
+    margin-bottom: 40px;
+}
+.footer-col1{
+    display: flex;
+    flex-direction: column;
+    margin-right:110px;
+}
+.footer-col1 p{
+    margin-bottom: 20px;
+}
+.mail{
+    margin-left:42px;
+}
+.footer-col2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-col2 p{
+    margin-bottom: 20px;
+}
+.bottom{
+    padding-top: 15px;
+    width:1440px;
+    height: 48px;
+    font-size: 16px;
+    background-color:#2b2c2c;
+    color:white;
+    text-align: center;
+}
